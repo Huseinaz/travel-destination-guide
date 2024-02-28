@@ -1,0 +1,47 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.profile {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.profile-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profile-information p {
+  font-size: 25px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
